@@ -60,8 +60,6 @@ const loadEvents = (dir = "./events/") => {
 		};
 	});
 };
-const entretien = require("./commands/entretien");
-bot.commands.set(entretien.name, entretien);
 
 loadEvents();
 loadCommands();
